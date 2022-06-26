@@ -1,0 +1,156 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #E4E7E3;
+    min-height: 100vh;
+    position: relative;
+}
+
+nav{
+    background-color: #2A3321 !important;
+    align-items: center !important;
+}
+
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+header{
+    background-image: url('../img/header8.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+main{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/fotoindex.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: #2A3321 !important;
+}
+
+#fundogeral{
+margin: 0;
+}
+
+
+h1{
+    /* margin: 0 !important; */
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    color: aliceblue;
+    background-color: rgba(42, 51, 33, 0.65);
+    border-radius: 50px;
+}
+
+#textoindex{
+    background: rgba(42, 51, 33, 0.65);
+    width: 100%;
+}
+
+#textoindex p{
+    color: aliceblue;
+    text-align: left !important;
+    font-size: larger;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
+h1#quemsomos{
+    /* margin: 0 !important; */
+    width: 50vw !important;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    color: aliceblue;
+    background-color: rgba(42, 51, 33, 0.65);
+    border-radius: 50px;
+}
+
+#textoquemsomos{
+    background: rgba(42, 51, 33, 0.65);
+    width: 50vw !important;
+    height: auto !important;
+    border-radius: 50px;
+}
+
+#textoquemsomos p{
+    color: aliceblue;
+    text-align: left !important;
+    font-size: larger;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+
+
+.card-cor{
+    background: rgba(42, 51, 33, 0.65);
+    border-radius: 50px;
+    height: 300px !important;
+}
+
+.margemcard{
+    margin-left: 4vw !important;
+}
+
+.tamanhocard{
+    height: 5000px !important;
+}
+
+.botoescasas{
+    align-items: center;
+}
+
+#firstdiv{
+    height: 50vh !important;
+    width: auto;
+}
+
+.linhabotoes{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    /* display: flex; */
+    /* position: fixed; */
+}
+
+.fotosindex{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+
+
+
+
+/* TAMANHO m do MATERIALIZE */
+@media only screen and (max-width: 992px){
+    .fotosindex {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+
+/* MOBILE TAMANHO s DO MATERIALIZE */
+@media only screen and (max-width: 600px){
+    .fotosindex {
+        max-width: 50px;
+        max-height: 50px;
+    }
+}
+
